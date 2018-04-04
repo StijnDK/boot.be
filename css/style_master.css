@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media (max-width : 1024px ){
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+h1{
+	font-family: "Meds Gent Titles Regular";
+	font-size: 60px;
+}
+
+h2 {
+	font-family: "Alte DIN 1451 Mittelschrift", "Gill Sans", Helvetica;
+	font-size: 20px;
+	color: rgba(0,0,120,1.0);
+}
+
+p {
+	font-family: "Lucida Bright", "DejaVu Serif", "serif", Georgia;
+	font-size: 12px;
+	color: rgba(0,0,120,1.00);
+	text-align: center;
+}
+
+nav{
+	color: rgba(0,0,120,1.00);
+	font-family: "Alte DIN 1451 Mittelschrift", "Gill Sans", Helvetica;
+	float: left;
+}
+
+ul {
+	font-family: "Lucida Bright", "DejaVu Serif", "serif", Georgia;
+    text-align: right;
+	list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    overflow: hidden;
+}
+
+li {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+a {
+    color: rgba(0,0,120,1.00);
+	text-align: right;
+}
+
+footer {
+	margin-top: 10%;
+	
+}
+
+span.centerImage {
+     text-align: center;
+}
+
+#logo_desktop { 
+	margin-top: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	display: block;
+	align-content: center;
+	height: 200px;
+	
+}
+
+#oo-left {
+	position: absolute;
+	top: 10px;
+	left: 300px;
+	display: block;
+	margin-top: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	background-color: rgba(0,0,0,0.0);
+	border-style: solid;
+	border-color: rgba(0,0,120,1.00);
+	border-width: 7px;
+	width: 190px;
+	height: 190px;
+	border-radius: 150px;
+}
+
+#oo-left:hover #workstripesleft{
+	display: block;
+}
+
+#oo-right {
+	position: absolute;
+	top: 10px;
+	left: 533px;
+	display: block;
+	margin-top: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	background-color: rgba(0,0,0,0.0);
+	border-style: solid;
+	border-color: rgba(0,0,120,1.00);
+	border-width: 7px;
+	width: 190px;
+	height: 190px;
+	border-radius: 150px;
+}
+
+#oo-right:hover #workstripesright {
+	display: block;
+}
+
+#workstripesleft {
+	position: relative;
+	top: -5px;
+	left: -7px;
+	size: 106%;
+	height: 106%;
+	border-width: 0px;
+	border-color: transparent;
+	border-radius: 150px;
+	display: none;
+}
+
+
+#workstripesright {
+	position: relative;
+	top: -5px;
+	left: -7px;
+	size: 106%;
+	height: 106%;
+	border-width: 0px;
+	border-color: transparent;
+	border-radius: 150px;
+	display: none;
+}
+
+
+
