@@ -75,8 +75,8 @@ span.centerImage {
 
 #oo-left {
 	position: absolute;
-	top: 10px;
-	left: 300px;
+	top: 12px;
+	left: 345px;
 	display: block;
 	margin-top: 20%;
 	margin-left: auto;
@@ -97,8 +97,8 @@ span.centerImage {
 
 #oo-right {
 	position: absolute;
-	top: 10px;
-	left: 533px;
+	top: 12px;
+	left: 581px;
 	display: block;
 	margin-top: 20%;
 	margin-left: auto;
